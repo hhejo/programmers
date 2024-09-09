@@ -1,14 +1,10 @@
 # [H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)
 
-### Lv. 2
-
-### 풀이 날짜
+`Lv. 2`
 
 - 240228 수
 
----
-
-## CODE 1
+## 풀이 1
 
 ```javascript
 function solution(citations) {
@@ -22,5 +18,3 @@ function solution(citations) {
   return ans;
 }
 ```
-
-## 해설 1

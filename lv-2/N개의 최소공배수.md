@@ -1,14 +1,10 @@
 # [N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)
 
-### Lv. 2
-
-### 풀이 날짜
+`Lv. 2`
 
 - 240225 일
 
----
-
-## CODE 1
+## 풀이 1
 
 ```javascript
 function solution(arr) {
@@ -20,5 +16,3 @@ function solution(arr) {
   return ans;
 }
 ```
-
-## 해설 1
