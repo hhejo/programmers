@@ -1,14 +1,18 @@
-# [K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
+# K번째수
 
-### Lv. 1
+Programmers
 
-### 풀이 날짜
+- **[K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)**
+- Difficulty: `Lv. 1`
+
+Solution Dates
 
 - 240201 목
+- 250623 월
 
----
+## Solution 1
 
-## CODE 1
+Code
 
 ```javascript
 function solution(array, commands) {
@@ -21,4 +25,21 @@ function solution(array, commands) {
 }
 ```
 
-## 해설 1
+Explanation
+
+## Solution 2
+
+Code
+
+```javascript
+function solution(array, commands) {
+  const answer = [];
+  for (let [i, j, k] of commands) {
+    const arr = array.slice(i - 1, j).sort((a, b) => a - b);
+    answer.push(arr[k - 1]);
+  }
+  return answer;
+}
+```
+
+Explanation
